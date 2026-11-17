@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page personal portfolio.">
+  <title>My Portfolio | Landing Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#home">My<span>Portfolio.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#projects">Proyek</a>
+        <a class="nav-cta" href="#contact">Hubungi</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HALO, SELAMAT DATANG</p>
+        <h1>Membangun ide menjadi <span>pengalaman digital.</span></h1>
+        <p class="intro">Saya seorang mahasiswa yang tertarik pada teknologi, pengembangan web, dan hal-hal baru. Ini adalah landing page portfolio sederhana saya.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Lihat Proyek</a>
+          <a class="button secondary" href="#contact">Hubungi Saya</a>
+        </div>
+        <p class="availability"><span class="dot"></span> Terbuka untuk belajar dan berkolaborasi</p>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">👩‍💻</div>
+        <p class="card-label">PERSONAL PORTFOLIO</p>
+        <h2>Halo, saya <span>Shabs</span></h2>
+        <p>Mahasiswa · Tech Enthusiast · Learner</p>
+        <div class="mini-stats">
+          <div><strong>01</strong><small>Landing Page</small></div>
+          <div><strong>CI/CD</strong><small>Project Focus</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">TENTANG SAYA</p>
+        <h2 class="section-title">Senang belajar, mencoba, dan <span>berkembang.</span></h2>
+        <p class="section-text">Bagian ini bisa kamu ubah menjadi deskripsi singkat tentang dirimu, jurusan, minat, dan kemampuan yang sedang kamu kembangkan. Buat isinya sesuai identitasmu sendiri.</p>
+        <div class="skill-list">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git & GitHub</span><span>Continuous Deployment</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h2 class="section-title">Proyek pilihan</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon">🌐</div>
+          <h3>Personal Landing Page</h3>
+          <p>Website satu halaman yang dibuat menggunakan HTML, CSS, dan JavaScript.</p>
+          <span class="tag">Web Development</span>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">⚙️</div>
+          <h3>CI/CD Deployment</h3>
+          <p>Proyek implementasi deployment otomatis dari GitHub ke server cloud.</p>
+          <span class="tag">DevOps</span>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">💡</div>
+          <h3>Learning Journey</h3>
+          <p>Ruang untuk menampilkan pengalaman belajar dan proyek berikutnya.</p>
+          <span class="tag">Continuous Learning</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow">KONTAK</p>
+          <h2>Yuk, terhubung!</h2>
+          <p>Punya ide atau ingin berdiskusi? Silakan hubungi saya melalui email.</p>
+        </div>
+        <a class="button light" href="mailto:shabsay@gmail.com">Kirim Email ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Shabs. Dibuat dengan semangat belajar.</p>
+    <a href="#home">Kembali ke atas ↑</a>
+  </footer>
+</body>
+</html>
